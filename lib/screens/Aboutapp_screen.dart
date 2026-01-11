@@ -38,7 +38,7 @@ class AboutAppScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // 🔹 App Logo
+              //  App Logo
               Container(
                 width: 120,
                 height: 120,
@@ -61,7 +61,7 @@ class AboutAppScreen extends StatelessWidget {
 
               const SizedBox(height: 16),
 
-              // 🔹 App Name
+              //  App Name
               const Text(
                 "Facebook Clone App",
                 style: TextStyle(
@@ -72,7 +72,7 @@ class AboutAppScreen extends StatelessWidget {
 
               const SizedBox(height: 8),
 
-              // 🔹 Short Description
+              //  Short Description
               const Text(
                 "This is a demo app created using Flutter to practice UI design and "
                 "navigation features. You can like, comment, share posts, and "
@@ -83,7 +83,7 @@ class AboutAppScreen extends StatelessWidget {
 
               const SizedBox(height: 16),
 
-              // 🔹 Features Section
+              //  Features Section
               const Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
@@ -109,7 +109,7 @@ class AboutAppScreen extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              // 🔹 Developer Info
+              //  Developer Info
               const Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
@@ -138,7 +138,7 @@ class AboutAppScreen extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              // 🔹 App Version
+              //  App Version
               const Text(
                 "Version 1.0.0",
                 style: TextStyle(fontSize: 14, color: Colors.black45),
@@ -151,7 +151,7 @@ class AboutAppScreen extends StatelessWidget {
   }
 }
 
-// 🔹 Widget for feature item
+//  Widget for feature item
 class FeatureItem extends StatelessWidget {
   final String text;
   const FeatureItem({required this.text, super.key});
