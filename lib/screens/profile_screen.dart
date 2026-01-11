@@ -43,7 +43,7 @@ class FacebookProfile extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // 🔹 Cover photo + Profile photo
+            //  Cover photo + Profile photo
             Stack(
               alignment: Alignment.bottomCenter,
               clipBehavior: Clip.none,
@@ -69,7 +69,7 @@ class FacebookProfile extends StatelessWidget {
             ),
 
             const SizedBox(height: 60), // space for profile avatar
-            // 🔹 Name + Bio
+            //  Name + Bio
             const Text(
               "Ronaldo",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
@@ -81,7 +81,7 @@ class FacebookProfile extends StatelessWidget {
 
             const SizedBox(height: 12),
 
-            // 🔹 Buttons (Add Friend, Message, Follow)
+            //  Buttons (Add Friend, Message, Follow)
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
@@ -113,7 +113,7 @@ class FacebookProfile extends StatelessWidget {
 
             const SizedBox(height: 12),
 
-            // 🔹 Stats (Friends, Followers, Posts)
+            //  Stats (Friends, Followers, Posts)
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
@@ -128,7 +128,7 @@ class FacebookProfile extends StatelessWidget {
 
             const Divider(height: 20, thickness: 1),
 
-            // 🔹 Posts
+            //  Posts
             ListView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
@@ -208,7 +208,7 @@ class FacebookProfile extends StatelessWidget {
   }
 }
 
-// 🔹 Stats widget
+//  Stats widget
 class _StatItem extends StatelessWidget {
   final int count;
   final String label;
