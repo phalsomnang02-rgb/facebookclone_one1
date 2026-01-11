@@ -68,12 +68,12 @@ Widget _textview() {
       padding: const EdgeInsets.all(12),
       child: Row(
         children: [
-          // 🔹 Profile Image
+          //  Profile Image
           CircleAvatar(radius: 22, backgroundImage: NetworkImage(profile)),
 
           const SizedBox(width: 10),
 
-          // 🔹 TextField
+          //  TextField
           Expanded(
             child: TextField(
               decoration: InputDecoration(
@@ -88,7 +88,7 @@ Widget _textview() {
 
           const SizedBox(width: 10),
 
-          // 🔹 Photo Icon
+          //  Photo Icon
           IconButton(
             icon: const Icon(Icons.photo_album_outlined, color: Colors.blue),
             onPressed: () {},
@@ -146,26 +146,26 @@ Widget _buildListViewbuilder() {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // 🔹 User info
+            //  User info
             ListTile(
               leading: CircleAvatar(backgroundImage: NetworkImage(post.avatar)),
               title: Text(post.name),
               subtitle: const Text("Just now"),
             ),
 
-            // 🔹 Post caption
+            //  Post caption
             Padding(
               padding: const EdgeInsets.all(8),
               child: Text(post.caption),
             ),
 
-            // 🔹 Post image
+            //  Post image
             if (post.image != null && post.image.isNotEmpty)
               Image.network(post.image),
 
             const SizedBox(height: 8),
 
-            // 🔹 Like / Comment / Share buttons
+            //  Like / Comment / Share buttons
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
