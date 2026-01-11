@@ -11,7 +11,7 @@ class DetailStoryScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // 🔵 Background Story Image
+          // Background Story Image
           Positioned.fill(
             child: Image.network(
               story.image1,
@@ -19,7 +19,7 @@ class DetailStoryScreen extends StatelessWidget {
             ),
           ),
 
-          // 🔵 Top Info
+          //  Top Info
           SafeArea(
             child: Row(
               children: [
