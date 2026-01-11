@@ -69,5 +69,4 @@ List<Post> posts = [
     "https://static.independent.co.uk/2021/11/16/02/North_Korea_Kim_92883.jpg",
     " i am small i am so headsome ",
   ),
-  // 👉 បន្ថែមរហូតដល់ 10
 ];
